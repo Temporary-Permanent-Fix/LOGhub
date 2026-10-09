@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alza Central Hub</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="page">
+  <div class="bg" aria-hidden="true"><img src="assets/wireframe.png" alt=""><div class="bg-shade"></div></div>
+
+  <header class="top">
+    <img class="logo" src="assets/logo.png" alt="alza">
+    <div class="grow"></div>
+    <span id="status" class="status" hidden></span>
+    <button id="editBtn" class="mono edit-btn"></button>
+    <div class="lang">
+      <button id="langSk" class="mono">SK</button><div class="lang-sep"></div><button id="langEn" class="mono">EN</button>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="hero">
+      <div>
+        <div id="eyebrow" class="mono eyebrow"></div>
+        <h1 id="h1"></h1>
+      </div>
+      <p id="lead" class="lead"></p>
+    </div>
+
+    <div class="toolbar">
+      <div class="search-wrap"><input id="search" type="search" autocomplete="off"></div>
+      <div class="grow"></div>
+      <div id="count" class="mono count"></div>
+    </div>
+
+    <div id="sections" class="sections"></div>
+  </main>
+
+  <footer class="foot mono">
+    <span>alza.sk · Logistics</span>
+    <span>L&amp;D Central Hub</span>
+    <div class="grow"></div>
+    <span>v2.1</span>
+  </footer>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

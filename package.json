@@ -1,0 +1,8 @@
+{
+  "name": "alza-central-hub",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "node dev-server.mjs" },
+  "engines": { "node": ">=20" }
+}
